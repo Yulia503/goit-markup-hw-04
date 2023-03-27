@@ -471,9 +471,15 @@ img {
     padding-left: 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
+}
+
+.gallery-descr-wrap:hover,
+.gallery-descr-wrap:focus {
     background: #ffffff;
-    border: 1px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border: 1px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .gallery-list-item .section-title {
