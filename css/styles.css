@@ -329,14 +329,12 @@ img {
     justify-content: center;
     align-items: center;
     padding: 16px 32px;
-
 }
 
-.customers-list:hover,
-.customers-list:focus{
-    color: var(--accent-btn);
+.customers-list-item:hover .customers-list-icon,
+.customers-list-item:focus .customers-list-icon {
+    fill: var(--accent-btn);
 }
-
 
 .customers-list-item:hover,
 .customers-list-item:focus {
@@ -348,11 +346,6 @@ img {
     width: 104px;
     height: 56px;
     fill: var(--icon-costumers-fill);
-}
-
-.customers-list-icon:hover,
-.customers-list-icon:focus {
-    fill: var(--accent-btn);
 }
 
 
