@@ -332,6 +332,12 @@ img {
 
 }
 
+.customers-list:hover,
+.customers-list:focus{
+    color: var(--accent-btn);
+}
+
+
 .customers-list-item:hover,
 .customers-list-item:focus {
     cursor: pointer;
@@ -489,7 +495,6 @@ img {
 .gallery-list-item:hover,
 .gallery-list-item:focus {
     background: #ffffff;
-    border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
